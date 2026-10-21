@@ -29,7 +29,7 @@ Because a small model alone tends to invent facts, we extended it into a local d
 
 We also ran a **user-needs survey** among pharmaceutical professionals to check that a 100 % local tool answered a real need (confidentiality constraints, large volumes of PDF reports).
 
-> 🎥 **Demo video:** [_add your link here (for example an unlisted YouTube video)_](https://youtu.be/1dMx-s_7TbM)
+> 🎥 **Demo video:** [watch the app in action on YouTube](https://youtu.be/1dMx-s_7TbM)
 
 ---
 
@@ -81,7 +81,7 @@ See [`app/README.md`](app/README.md) for the full setup (Python 3.10 or 3.11, vi
 
 The trained model files are too large for GitHub and are not included in this repository:
 
-- `app/models/nexus_pubmed_big/model.weights.h5` (about 96 MB): [_add a download link here (Google Drive or Hugging Face Hub)_](https://drive.google.com/file/d/13_Uyt9MltoyDJCr8jK8OeVAxFiBk2I6G/view?usp=sharing).
+- `app/models/nexus_pubmed_big/model.weights.h5` (about 96 MB): [download from Google Drive](https://drive.google.com/file/d/13_Uyt9MltoyDJCr8jK8OeVAxFiBk2I6G/view?usp=sharing).
 - `app/models/biomedbert_ner_bc5cdr/`: see [`app/models/README.md`](app/models/README.md).
 
 The vocabulary (`vocab_pubmed_big.pkl`) and the model configuration are included.
