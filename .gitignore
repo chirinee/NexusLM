@@ -1,0 +1,26 @@
+# Large model files (see app/models/README.md)
+*.h5
+*.keras
+*.safetensors
+*.bin
+app/models/biomedbert_ner_bc5cdr/*
+!app/models/biomedbert_ner_bc5cdr/.gitkeep
+
+# Videos
+*.mp4
+*.mov
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Data and uploads
+*.zip
+*.csv
+uploads/
+
+# macOS
+.DS_Store
