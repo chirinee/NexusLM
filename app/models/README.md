@@ -7,7 +7,7 @@ The large model files are not stored in this repository (GitHub limits files to 
 Included: `config.json`, `metadata.json`, `vocab_pubmed_big.pkl`.
 
 Missing: `model.weights.h5` (about 96 MB).
-Download it here: _add your link_ and place it in `app/models/nexus_pubmed_big/`.
+Download it here: [Google Drive](https://drive.google.com/file/d/13_Uyt9MltoyDJCr8jK8OeVAxFiBk2I6G/view?usp=sharing) and place it in `app/models/nexus_pubmed_big/`.
 
 ## Biomedical NER (`biomedbert_ner_bc5cdr/`)
 
