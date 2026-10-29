@@ -1,4 +1,4 @@
-# Nexus_site
+# Nexus web app
 
 Local web interface for the Nexus TER project.
 
@@ -25,7 +25,7 @@ Python 3.14 is not recommended for this project because some packages, such as T
 ## 2. Project Structure
 
 ```text
-Nexus_site/
+app/
 |-- app.py
 |-- README.md
 |-- requirements.txt
@@ -40,28 +40,26 @@ Nexus_site/
 |       |-- nexus_jellyfish_favicon.png
 |       `-- nexus_jellyfish_logo.png
 `-- models/
+    |-- README.md                  (how to get the model files)
     |-- nexus_pubmed_big/
     |   |-- config.json
     |   |-- metadata.json
-    |   |-- model.weights.h5
-    |   `-- vocab_pubmed_big.pkl
-    `-- biomedbert_ner_bc5cdr/
-        |-- config.json
-        |-- model.safetensors
-        |-- special_tokens_map.json
-        |-- tokenizer.json
-        `-- tokenizer_config.json
+    |   |-- vocab_pubmed_big.pkl
+    |   `-- model.weights.h5       (to download, see models/README.md)
+    `-- biomedbert_ner_bc5cdr/     (to download, see models/README.md)
 ```
 
 ## 3. Python Setup
 
-Open a terminal in the `Nexus_site` folder.
+First, download the repository (green **Code** button on GitHub, then **Download ZIP**, or `git clone https://github.com/chirinee/NexusLM.git`), and download the model files as explained in [`models/README.md`](models/README.md).
+
+Then open a terminal in the `app` folder of the repository.
 
 ### How to Find the Folder Path on Windows
 
 If you do not know the exact path to the project folder:
 
-1. Open the folder `Nexus_site` in Windows File Explorer.
+1. Open the folder `app` in Windows File Explorer.
 2. Click in the address bar at the top of the window.
 3. Copy the full path that appears.
 4. In PowerShell, type `cd`, add a space, then paste the path between quotes.
@@ -69,22 +67,22 @@ If you do not know the exact path to the project folder:
 Example on Windows:
 
 ```powershell
-cd "C:\path\to\Nexus_site"
+cd "C:\path\to\app"
 ```
 
-Another simple method is to type `cd ` in PowerShell, then drag and drop the `Nexus_site` folder into the terminal window. PowerShell will automatically insert the correct path.
+Another simple method is to type `cd ` in PowerShell, then drag and drop the `app` folder into the terminal window. PowerShell will automatically insert the correct path.
 
 ```powershell
-cd "path\to\Nexus_site"
+cd "path\to\app"
 ```
 
 On macOS or Linux, open a terminal and use:
 
 ```bash
-cd /path/to/Nexus_site
+cd /path/to/app
 ```
 
-You can also type `cd `, drag and drop the `Nexus_site` folder into the terminal, then press Enter.
+You can also type `cd `, drag and drop the `app` folder into the terminal, then press Enter.
 
 ## 4. Install Python Dependencies
 
@@ -168,7 +166,7 @@ If Ollama is already running in the background, this command may say that the po
 
 ## 6. Run the Application
 
-From the `Nexus_site` folder, run:
+From the `app` folder, run:
 
 Windows:
 
