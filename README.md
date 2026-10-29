@@ -33,6 +33,14 @@ We also ran a **user-needs survey** among pharmaceutical professionals to check 
 
 ---
 
+<p align="center">
+  <img src="docs/nexus_app.png" alt="Nexus home screen" width="49%">
+  <img src="docs/nexus_app_answer.png" alt="Nexus answering a question from an uploaded PDF, with RAG and NER enabled" width="49%">
+</p>
+<p align="center"><em>Left: home screen. Right: answer generated from an uploaded PDF (Ollama + RAG + NER).</em></p>
+
+---
+
 ## What we built, step by step
 
 | Step | What | Notebook |
@@ -90,7 +98,7 @@ The vocabulary (`vocab_pubmed_big.pkl`) and the model configuration are included
 
 ## Team
 
-Project carried out by a team of five students, who worked together on every stage: the model, NER and RAG, the web app and the user-needs survey :
+Project carried out by a team of five students, who worked together on every stage: the model, NER and RAG, the web app and the user-needs survey:
 
 - Chirine El Aidouni
 - Nassera Nabgaoui
