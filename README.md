@@ -90,7 +90,7 @@ The vocabulary (`vocab_pubmed_big.pkl`) and the model configuration are included
 
 ## Team
 
-Project carried out by a team of five students:
+Project carried out by a team of five students, who worked together on every stage: the model, NER and RAG, the web app and the user-needs survey :
 
 - Chirine El Aidouni
 - Nassera Nabgaoui
